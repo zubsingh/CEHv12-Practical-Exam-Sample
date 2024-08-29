@@ -1,0 +1,79 @@
+Challenge 1:
+
+Perform an extensive scan of the target network and identify the Product Version of the Domain Controller. (Format: NN.N.NNNNN)
+
+Challenge 2:
+
+While investigating an attack, you found that a Windows web development environment was exploited to gain access to the system. Perform extensive scanning and service enumeration of the target networks and identify the number of mercury services running in the Server. (Format: N)
+
+Challenge 3:
+
+Identify a machine with RDP service enabled in the 10.10.55.0/24 subnet. Crack the RDP credentials for user Jones and obtain a file hide.cfe containing an encrypted image file. Decrypt the file and enter the CRC32 value of the image file as the answer. Note: Use Jones's password to extract the image file.. (Format: NaaNNNaa)
+
+Challenge 4:
+
+An insider attack involving one of the employee's mobile device in the 10.10.55.0/24 subnet has been identified. You are assigned to covertly access the user's device and obtain hidden data in the image file stored . Analyze the image file and extract the sensitive data hidden in the file and enter the secret code as the answer. (Format: A*AaAa*AN)
+
+Challenge 5:
+
+Perform a vulnerability scan for the host with IP address 192.168.44.32. What is the CVE number of the vulnerability with least severity score? (Format: AAA-NNNN-NNNN)
+
+Challenge 6:
+
+Exploit a remote login and command-line execution application on a Linux target in the 10.10.55.0/24 subnet to access a sensitive file, Netnormal.txt. Enter the content in the file as the answer. (Format: ANaN*aNaN)
+
+Challenge 7:
+
+An ex-employee of an organization has stolen a vital account credential and stored in a double-encrypted file named restricted.txt before leaving the organization. The credential is a nine-character alpha-numeric string. Enter the credential as the answer. The restricted.txt file has been identified from the employee's email attachment and stored in the "EH Workstation – 2" machine in the Documents folder. Note: You have learned that "password" is the key to extracting credentials from the restricted.txt file. (Format: aaaaa*NNN)
+
+Challenge 8:
+
+Exploit weak credentials used for SMB service on a Windows machine in the 10.10.55.0/24 subnet. Obtain the file, Sniffer.txt hosted on the SMB root, and enter its content as the answer. (Format: a*aaNaNNa)
+
+Challenge 9:
+
+You used shoulder surfing to identify the username and password of a user on the Ubuntu machine in the 10.10.55.0/24 network, that is, marcus and M3rcy@123. Access the target machine, perform vertical privilege escalation to that of a root user, and enter the content of the imroot.txt file as the answer. (Format: AANNNN***)
+
+Challenge 10:
+
+A disgruntled ex-employee Martin has hidden some confidential files in a folder "Scan" in a Windows machine in the 10.10.55.0/24 subnet. You can not physically access the target machine, but you know that the organization has installed a RAT in the machine for remote administration purposes. Your task is to check how many files present in the Scan Folder and enter the number of files sniffed by the employee as answer. (Format: N)
+
+Challenge 11:
+
+During an assignment, an incident responder has retained a suspicious executable file "Strange_File-1". Your task as a malware analyst is to determine the size of the PT_LOAD(0) segment using the SHA224 hash method. The file is in the C:\Users\Admin\Documents directory in the "EH Workstation – 2" machine. Format: NNNaNNaa)
+
+Challenge 12:
+
+You are investigating a massive DDoS attack launched against a target at 172.22.10.10. Your objective is to identify the packets responsible for the attack and determine the least IPv4 packet count sent to the victim machine. The network capture file "Evil-traffic.pcapng" is saved in the Documents folder of the "EH Workstation – 2" (Windows 11) machine.(Format: NNNNN)
+
+Challenge 13:
+
+Perform an SQL injection attack on your target web application cinema.cehorg.com and extract the password of user Daniel. You have already registered on the website with credentials Karen/computer. (Format: aaaaaaaaaa)
+
+Challenge 14:
+
+Explore the web application at www.cehorg.com and enter the flag's value on the page with page_id=95. (Format: A**NNAA)
+
+Challenge 15:
+
+Perform vulnerability research and exploit the web application training.cehorg.com, available at 10.10.55.50. Locate the Flag.txt file and enter its content as the answer. (Format: A*a*aNNN)
+
+Challenge 16:
+
+Perform SQL injection attack on a web application, cybersec.cehorg.com, available at 192.168.44.40. Find the value in the Flag column in one of the DB tables and enter it as the answer. (Format: *aNNaNAA)
+
+Challenge 17:
+
+A set of files has been uploaded through DVWA (http://192.168.44.32:8080/DVWA). The files are located in the "C:\wamp64\www\DVWA\ECweb\Certified\" directory. Access the files and decode the base64 ciphers to reveal the original message among them. Enter the decrypted message as the answer. You can log into the DVWA using the credentials admin/password. (Format: A**aaa*AA)
+
+Challenge 18:
+
+Analyze the traffic capture from an IoT network located in the Documents folder of the "EH Workstation – 1" (ParrotSecurity) machine, identify the packet with IoT Publish Message, and enter the topic length as the answer. (Format: N)
+
+Challenge 19:
+
+A disgruntled employee of your target organization has stolen the company's trade secrets and encrypted them using VeraCrypt. The VeraCrypt volume file "Its_File" is stored on the C: drive of the "EH Workstation – 2" machine. The password required to access the VeraCrypt volume has been hashed and saved in a ".txt" file in the Documents folder of "EH Workstation – 1" (ParrotSecurity) machine. As an ethical hacker working with the company, you need to decrypt the hash in the Hash2crack.txt file, access the Veracrypt volume, and find the secret code in the file named EC_data.txt. (Format: NA*aNaa**A)
+
+Challenge 20:
+
+Your organization suspects the presence of a rogue AP in the vicinity. You are tasked with cracking the wireless encryption, connecting to the network, and setting up a honeypot. The airdump-ng tool has been used, and the Wi-Fi traffic capture named "W!F!_Pcap.cap" is located in the Documents folder in the "EH Workstation – 1" (ParrotSecurity) machine. Crack the wireless encryption and enter the total number of characters present in the Wi-Fi password. (Format: N)
